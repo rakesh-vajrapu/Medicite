@@ -1,0 +1,35 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="record.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+ 
+</head>
+<body>
+
+  <form action="form1.php" method="get">
+  
+    <h1>Enter New Record</h1>
+    
+    <fieldset>
+      <label for="serialcode">Enter new serial code</label>
+      <input type="text" id="serialcode" name="tcode" placeholder="Serial Code" required>
+      
+      <label for="d">Enter manufacture date</label>
+      <input type="date" id="d" name="manufacture" required>
+      
+      <label for="date">Enter expiry date</label>
+      <input type="date" id="date" name="expire" required>
+
+      <label for="n">Enter medicine name</label>
+      <input type="text" id="n" name="name" placeholder="Medicine name" required>
+
+      <label for="u">Medicine used for</label>
+      <input type="text" id="u" name="uses" placeholder="used for" required>
+    
+    <button type="submit" style="border-radius:30px; cursor: pointer;">Add new record</button>
+  </form>
+  
+</body>
+</html>
